@@ -1,0 +1,61 @@
+.app__theme-change {
+  display: block;
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--default-purple);
+  background-image: url("/images/moon.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.app__theme-change:hover {
+  background-color: var(--primary-purple);
+}
+
+.app__add {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: var(--default-purple);
+  border: none;
+  border-radius: 50%;
+  background-image: url("/images/plus.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.app__add:hover {
+  background-color: var(--primary-purple);
+}
+
+.app__edit,
+.app__del {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: #cdcdcd;
+  mask-position: 50% 50%;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  cursor: pointer;
+}
+
+.app__edit {
+  mask-image: url("/images/pencil.svg");
+}
+
+.app__edit:hover {
+  background-color: var(--default-purple);
+}
+
+.app__del {
+  mask-image: url("/images/trash.svg");
+}
+
+.app__del:hover {
+  background-color: var(--default-red);
+}

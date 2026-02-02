@@ -1,0 +1,4 @@
+.app__navigation {
+  display: flex;
+  gap: 16px;
+}

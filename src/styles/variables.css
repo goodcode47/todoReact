@@ -1,0 +1,9 @@
+:root {
+  --default-purple: #6c63ff;
+  --primary-purple: #5850dd;
+  --darken-purple: #534cc2;
+  --light-gray: rgba(#252525, 0.5);
+  --default-white: #ffffff;
+  --default-black: #000000;
+  --default-red: #e50000;
+}

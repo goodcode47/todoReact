@@ -1,0 +1,15 @@
+.app__select {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: var(--default-white);
+  background-color: var(--primary-purple);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.app__select option {
+  text-transform: lowercase;
+  color: var(--default-purple);
+  background-color: var(--default-white);
+}

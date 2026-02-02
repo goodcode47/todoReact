@@ -1,0 +1,11 @@
+.app__header {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.app__heading {
+  margin: 0;
+  font-size: 26px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
