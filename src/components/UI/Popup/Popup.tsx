@@ -37,28 +37,28 @@ const Popup: React.FC<PopupProps> = ({
 
   return (
     <div className={styles.popup}>
-      <form className={styles.popup__form} onSubmit={handleSubmit}>
-        <h2 className={styles.popup__heading}>
+      <form className={styles.popupForm} onSubmit={handleSubmit}>
+        <h2 className={styles.popupHeading}>
           {mode === "add" ? "New Note" : "Edit Note"}
         </h2>
         <input
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          className={styles.popup__input}
+          className={styles.popupInput}
           type="text"
           placeholder="Input your note..."
           autoFocus
         />
-        <div className={styles.popup__controlWrap}>
+        <div className={styles.popupControlWrap}>
           <Button
-            className={styles.popup__cancel}
+            className={styles.popupCancel}
             type="button"
             onClick={onClose}
             variant="close"
           >
             Cancel
           </Button>
-          <Button className={styles.popup__add} type="submit" variant="apply">
+          <Button className={styles.popupAdd} type="submit" variant="apply">
             {mode === "add" ? "Add" : "Save"}
           </Button>
         </div>

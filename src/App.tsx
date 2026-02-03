@@ -16,12 +16,12 @@ const App = () => {
   const [todos, setTodos] = useState<Todo[]>([
     {
       id: 1,
-      title: "Go to walk",
+      title: "Go for a walk",
       completed: false,
     },
     {
       id: 2,
-      title: "Buy milk and salt",
+      title: "Buy milk",
       completed: true,
     },
   ]);

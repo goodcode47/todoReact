@@ -5,3 +5,10 @@ body {
   line-height: 26px;
 }
 
+.dark-theme {
+  background-color: var(--default-black);
+}
+
+.dark-theme .themeChange {
+  background-image: url("/images/light.svg");
+}

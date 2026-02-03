@@ -13,9 +13,9 @@ const Button: React.FC<ButtonProps> = ({
   onClick,
   children,
   type = "button",
-  className: externalClassName = ""
+  className: externalClassName = "",
 }) => {
-  const internalClassName = variant ? styles[`app__${variant}`] : "";
+  const internalClassName = variant ? styles[`${variant}`] : "";
   const combinedClassName = `${internalClassName} ${externalClassName}`.trim();
 
   return (

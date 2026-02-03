@@ -1,4 +1,4 @@
-.app__theme-change {
+.themeChange {
   display: block;
   width: 38px;
   height: 38px;
@@ -11,11 +11,11 @@
   cursor: pointer;
 }
 
-.app__theme-change:hover {
+.themeChange:hover {
   background-color: var(--primary-purple);
 }
 
-.app__add {
+.add {
   display: block;
   width: 50px;
   height: 50px;
@@ -28,12 +28,12 @@
   cursor: pointer;
 }
 
-.app__add:hover {
+.add:hover {
   background-color: var(--primary-purple);
 }
 
-.app__edit,
-.app__del {
+.edit,
+.del {
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -44,18 +44,18 @@
   cursor: pointer;
 }
 
-.app__edit {
+.edit {
   mask-image: url("/images/pencil.svg");
 }
 
-.app__edit:hover {
+.edit:hover {
   background-color: var(--default-purple);
 }
 
-.app__del {
+.del {
   mask-image: url("/images/trash.svg");
 }
 
-.app__del:hover {
+.del:hover {
   background-color: var(--default-red);
 }

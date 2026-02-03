@@ -1,4 +1,4 @@
-.app__search {
+.search {
   width: 560px;
   height: 38px;
   padding: 11px 400px 11px 16px;
@@ -8,8 +8,14 @@
   border: 1px solid var(--default-purple);
   border-radius: 5px;
   box-sizing: border-box;
-
   background-image: url("/images/search.svg");
   background-position: 97% 50%;
   background-repeat: no-repeat;
+  outline: none;
+}
+
+:global(.dark-theme) .search {
+  color: var(--default-white);
+  background-color: var(--default-black);
+  border-color: var(--default-white);
 }

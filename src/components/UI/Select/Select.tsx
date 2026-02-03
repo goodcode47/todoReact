@@ -8,13 +8,19 @@ interface SelectProps {
 const Select = ({ value, onChange }: SelectProps) => {
   return (
     <select
-      className={styles.app__select}
+      className={styles.select}
       value={value}
       onChange={(e) => onChange(e.target.value)}
     >
-      <option value="all">All</option>
-      <option value="complete">Complete</option>
-      <option value="incomplete">Incomplete</option>
+      <option className="selectOption" value="all">
+        All
+      </option>
+      <option className="selectOption" value="complete">
+        Complete
+      </option>
+      <option className="selectOption" value="incomplete">
+        Incomplete
+      </option>
     </select>
   );
 };

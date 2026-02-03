@@ -1,4 +1,4 @@
-.app__select {
+.select {
   padding: 5px 10px;
   text-transform: uppercase;
   color: var(--default-white);
@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 
-.app__select option {
+.selectOption {
   text-transform: lowercase;
   color: var(--default-purple);
   background-color: var(--default-white);

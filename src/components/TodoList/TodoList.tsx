@@ -16,12 +16,12 @@ interface TodoListProps {
 
 const TodoList = ({ todos, onEdit, onDelete, onToggle }: TodoListProps) => {
   return (
-    <ul className={styles["app__todo-list"]}>
-      <TodoItem 
-        todos={todos} 
-        onEdit={onEdit} 
-        onDelete={onDelete} 
-        onToggle={onToggle} 
+    <ul className={styles.todoList}>
+      <TodoItem
+        todos={todos}
+        onEdit={onEdit}
+        onDelete={onDelete}
+        onToggle={onToggle}
       />
     </ul>
   );
